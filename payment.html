@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <Body background="bg1.jpg"></Body>
+    <body>
+        <header>
+            <img id="image2" src="logo.png" width=10% alt="image2"> 
+        </header>
+        <div class="container">
+            <div class="payment-methods">
+                <h2>Select Payment Method</h2>
+                <form action="process_payment.php" method="post">
+                    <div class="payment-method">
+                        <label for="upi">UPI</label>
+                        <input type="radio" id="upi" name="payment_method" value="upi">
+                        <input type="text" name="upi_id" placeholder="Enter your UPI ID">
+                    </div>
+                    <div class="payment-method">
+                        <label for="net_banking">Net Banking</label>
+                        <input type="radio" id="net_banking" name="payment_method" value="net_banking">
+                        <select name="bank">
+                            <option value="">Select your bank</option>
+                            <option value="bank1">Bank 1</option>
+                            <option value="bank2">Bank 2</option>
+                            <option value="bank3">Bank 3</option>
+                        </select>
+                    </div>
+                    <div class="payment-method">
+                        <label for="credit_debit">Credit/Debit Card</label>
+                        <input type="radio" id="credit_debit" name="payment_method" value="credit_debit">
+                        <input type="text" name="card_number" placeholder="Card Number">
+                        <input type="text" name="card_name" placeholder="Name on Card">
+                        <input type="text" name="card_expiry" placeholder="MM/YY">
+                        <input type="text" name="card_cvv" placeholder="CVV">
+                    </div>
+                    <div class="payment-method">
+                        <label for="cod">Cash on Delivery</label>
+                        <input type="radio" id="cod" name="payment_method" value="cod">
+                    </div>
+                    <button type="submit" class="btn">Proceed to Pay</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</body>
+</html>

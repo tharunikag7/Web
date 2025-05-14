@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    color: #0c0c0c;
+    padding-left: 145px;
+    padding-top: 30px;
+    min-height: 70px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 20px;
+}
+.payment-methods {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(246, 246, 246);
+}
+.payment-method {
+    margin: 20px 0;
+}
+.payment-method label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.payment-method input[type="radio"] {
+    margin-right: 10px;
+}
+.btn {
+    display: inline-block;
+    background:#070707;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #fffefe;
+}
+figure img{
+    margin-left:100px;
+    padding: 20px;
+}
+img {
+    display: block;
+    margin-top: 10px; 
+    border-radius:50%;
+  }

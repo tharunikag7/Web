@@ -1,0 +1,195 @@
+#page2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1;
+    min-height: 100vh;
+    background: #ffffff;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #030303;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+input {
+    display: inline;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    color: rgb(252, 253, 253);
+    cursor: pointer;
+    background-color: #000000;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin:0;
+    padding:0;
+}
+img {
+    display: block;
+    margin-top: 10px; 
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+  }
+ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top:10px;
+  }
+ul li,input,button {
+    display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+    display: inline;
+    margin-right: 10px;
+
+
+}
+h3{
+   color:#fdf9fb;
+   align-items:center;
+
+  }
+  h2{
+    color:#0a0a0a;
+   }
+footer,article,section,hgroup,nav,figure{
+    display: block;
+    color:#020202;
+}
+#page1{
+    font-size:0.825em;
+    color:#000000;
+    background-color:#fefefe;
+    font-family:arial,Arial, Helvetica, sans-serif;
+}
+a,a:visited{
+    color:#0c0c0c;
+    text-decoration:none; outline:none;
+}
+a:hover{
+    text-decoration:underline;
+    }
+    a img{
+        border:none;
+    }
+    h1,h2 {
+        font-family:"myriad pro","Helvetica Neue",Helvetica,Arial,Sans-Serif; 
+        text-shadow:0 1px 1px rgb(7, 7, 7);
+        }
+        h1{
+            font-size:3.5em;
+            padding:0.5em 0 0;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size:2.2em; font-weight:normal;
+            letter-spacing:0.01em; text-transform:uppercase; 
+            color:rgb(10, 11, 11)
+            
+        }
+        p{
+            line-height:1.5em; padding-bottom:1em;
+        }
+        .line{
+            height:1px;
+            background-color: #000000;
+            border-bottom: 1px solid #070707;  
+            margin: 0.2em 0;
+            overflow:hidden;          
+        }
+        #page{
+            width:960px; margin:0 auto; position:relative;
+            }
+        article{
+             background-color:#fcfdfe; margin:3em 0; padding:20px;
+             text-shadow:0 2px 0 rgb(253, 253, 253);
+        }
+        figure{
+            border:3px solid #feffff; float:right;
+             height:200px; margin-left:15px; overflow:hidden; width:500px;
+        }
+        figure:hover{
+             -moz-box-shadow:0 0 2px #080808;
+            -webkit-box-shadow:0 0 2px #050505; box-shadow:0 0 2px #090909;
+        }
+        figure img{
+            margin-left:10px;
+        }
+        footer{
+            margin-bottom:30px;
+            text-align:center;
+            font-size:0.825em;
+        }
+        footer p{
+            margin: bottom -2.5em;
+            position:relative;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+          }
+          
+          .logo {
+            margin-right: 20px;
+            display: block;
+            margin-top: 10px; 
+            border-radius:70%;
+         }
+          
+         #imagee{
+            margin-left:170px;
+            
+         }
+         #earth{
+            margin-right: 190px;
+            margin-left:170px;
+            justify-content: center;
+         }
+         
